@@ -38,7 +38,7 @@
 ### 🤝🏻 Connect with Me 
 
 <div align="left">
-   <a href="https:/discord.com/Léo Albergaria#1961">
+   <a href="https:/discord.com">
      <img 
        alt="Discord" 
        title="Léo Albergaria#1961"
