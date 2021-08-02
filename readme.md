@@ -38,7 +38,7 @@
 ### 🤝🏻 Connect with Me 
 
 <div align="left">
-   <a href="https://github.com/ImGabreuw">
+   <a href="https://Léo Albergaria#1961">
      <img 
        alt="Discord" 
        title="Léo Albergaria#1961"
