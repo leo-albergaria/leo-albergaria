@@ -23,10 +23,10 @@
 ### ⚙️ GitHub Analytics
 
 <div align="left"> 
-   <img width="450px" 
+   <img width="400px" height="200px"
        src="https://github-readme-stats.vercel.app/api?username=leo-albergaria&show_icons=true&include_all_commits=true&count_private=true&theme=dark&line_height=30" />
-   <img width="450px" 
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=leo-albergaria&layout=compact&theme=dark&langs_count=10&hide=jupyter%20notebook" />
+   <img width="400px" height="200px"
+       src="https://github-readme-stats.vercel.app/api/top-langs/?username=leo-albergaria&layout=compact&theme=dark&langs_count=15&hide=jupyter%20notebook" />
 </div>
 
 ---
