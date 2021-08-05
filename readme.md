@@ -17,6 +17,7 @@
 <code><img height="25" src="https://img.shields.io/badge/postgres-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white"></code>
 <code><img height="25" src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></code>
 <code><img height="25" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)"></code>
+<code><img height="25" src="https://img.shields.io/badge/Python-%23323330?style=for-the-badge&logo=python&logoColor=black)"></code>
 
 ---
 
