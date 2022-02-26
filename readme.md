@@ -37,9 +37,6 @@
 ### 🤝🏻 Connect with Me 
 
 <div align="left">
-   <a href="https:/discord.com">
-      <img src="https://img.shields.io/badge/Léo Albergaria%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white" />
-   </a>  
    <a href="https://www.linkedin.com/in/adm-leo-albergaria/">
       <img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
    </a>
