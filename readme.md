@@ -40,7 +40,11 @@
    <a href="https://www.linkedin.com/in/adm-leo-albergaria/">
       <img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
    </a>
+   <a href="https://web.dio.me/users/leo_albergaria">
+      <img src="https://img.shields.io/badge/DioMe%20-%230057B5.svg?&style=for-the-badge&logo=DioMe&logoColor=white" />
+   </a>
 </div>
+
 
 ---
 
