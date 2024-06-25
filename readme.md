@@ -4,22 +4,11 @@
 
 ### 🤵 About Me
 
-- 🔭 I’m currently students on **development**
 
 ---
 
 ### 📚 My Stack
 
-<code><img height="25" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"></code>
-<code><img height="25" src="https://img.shields.io/badge/C-%23ED8B00.svg?&style=for-the-badge&logo=C&logoColor=white"></code>
-<code><img height="25" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"></code>
-<code><img height="25" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"></code>
-<code><img height="25" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"></code>
-<code><img height="25" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"></code>
-<code><img height="25" src="https://img.shields.io/badge/postgres-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white"></code>
-<code><img height="25" src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"></code>
-<code><img height="25" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)"></code>
-<code><img height="25" src="https://img.shields.io/badge/Python-%23323330?style=for-the-badge&logo=python&logoColor=black)"></code>
 
 ---
 
