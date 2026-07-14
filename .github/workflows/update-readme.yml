@@ -1,4 +1,5 @@
 name: Update README
+
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -9,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Generate Content
         run: |
-          # Criando o conteúdo que será injetado
           echo "### 📂 Meus Repositórios em Destaque" > content.md
           echo "" >> content.md
           echo "* **[learning_js_serverless](https://github.com/leo-albergaria/learning_js_serverless)**: Arquitetura baseada em eventos (AWS Lambda/Node.js)." >> content.md
@@ -23,23 +24,26 @@ jobs:
 
       - name: Inject Content
         run: |
-          # Verifica se as tags existem no arquivo
-          if grep -q "" readme.md; then
-            sed -i '//,//{
-              //r content.md
-              //!{
-                //!d
+          if grep -q "<!-- START_REPOSITORIES -->" README.md && grep -q "<!-- END_REPOSITORIES -->" README.md; then
+
+            sed -i '/<!-- START_REPOSITORIES -->/,/<!-- END_REPOSITORIES -->/{ 
+              /<!-- START_REPOSITORIES -->/{
+                p
+                r content.md
               }
-            }' readme.md
+              /<!-- END_REPOSITORIES -->/!d
+            }' README.md
+
           else
-            echo "Erro: As tags de injeção não foram encontradas no arquivo readme.md"
+            echo "Erro: As tags de injeção não foram encontradas no README.md"
             exit 1
           fi
-          
+
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ./README.md
+
+          git add README.md
           git commit -m "docs: auto-update repository list" || exit 0
           git push
