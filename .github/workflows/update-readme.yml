@@ -23,19 +23,22 @@ jobs:
 
       - name: Inject Content
         run: |
-          # O script abaixo remove tudo entre as tags e insere o novo conteúdo
-          sed -i '/<!-- START_SECTION:repositories -->/,/<!-- END_SECTION:repositories -->/{
-            /<!-- START_SECTION:repositories -->/r content.md
-            /<!-- START_SECTION:repositories -->/!{
-              /<!-- END_SECTION:repositories -->/!d
+          # Garante que estamos no diretório correto onde o README está
+          ls -la # Debug: lista os arquivos para confirmar a presença do README
+          
+          # Remove tudo entre as tags e insere o novo conteúdo
+          # Usamos o caminho relativo explícito
+          sed -i '//,//{
+            //r content.md
+            //!{
+              //!d
             }
-          }' README.md
+          }' ./README.md
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          # O || exit 0 previne erro caso não haja mudanças (nada a commitar)
+          git add ./README.md
           git commit -m "docs: auto-update repository list" || exit 0
           git push
