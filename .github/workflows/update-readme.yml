@@ -24,7 +24,7 @@ jobs:
 
       - name: Inject Content
         run: |
-          if grep -q "<!-- START_REPOSITORIES -->" README.md && grep -q "<!-- END_REPOSITORIES -->" README.md; then
+          if grep -q "<!-- START_REPOSITORIES -->" readme.md && grep -q "<!-- END_REPOSITORIES -->" readme.md; then
 
             sed -i '/<!-- START_REPOSITORIES -->/,/<!-- END_REPOSITORIES -->/{ 
               /<!-- START_REPOSITORIES -->/{
@@ -32,7 +32,7 @@ jobs:
                 r content.md
               }
               /<!-- END_REPOSITORIES -->/!d
-            }' README.md
+            }' readme.md
 
           else
             echo "Erro: As tags de injeção não foram encontradas no README.md"
@@ -44,6 +44,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add README.md
+          git add readme.md
           git commit -m "docs: auto-update repository list" || exit 0
           git push
