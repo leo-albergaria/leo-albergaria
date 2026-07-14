@@ -71,7 +71,11 @@ Engenheiro de Software com uma trajetória sólida de mais de 30 anos, combinand
 ### 🚀 Technical Highlights & Projects
 *Estes repositórios refletem estudos arquiteturais, automação de infraestrutura e aplicações de padrões de design em sistemas distribuídos.*
 
-<!-- START_SECTION:repositories -->
-<!-- Esta seção será preenchida automaticamente pelo sistema de automação -->
-<!-- END_SECTION:repositories -->
+<!-- START_REPOSITORIES -->
+### 📂 Meus Repositórios em Destaque
+
+* **learning_js_serverless**...
+* **learning_html_dsa_power_bi**...
+
+<!-- END_REPOSITORIES -->
 ---
