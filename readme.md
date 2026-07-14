@@ -72,7 +72,10 @@ Engenheiro de Software com uma trajetória sólida de mais de 30 anos, combinand
 *Estes repositórios refletem estudos arquiteturais, automação de infraestrutura e aplicações de padrões de design em sistemas distribuídos.*
 
 <!-- START_REPOSITORIES -->
+### 📂 Meus Repositórios em Destaque
 
+* **[learning_js_serverless](https://github.com/leo-albergaria/learning_js_serverless)**: Arquitetura baseada em eventos (AWS Lambda/Node.js).
+* **[learning_html_dsa_power_bi](https://github.com/leo-albergaria/learning_html_dsa_power_bi)**: Business Intelligence e visualização de dados.
 <!-- END_REPOSITORIES -->
 
 ---
