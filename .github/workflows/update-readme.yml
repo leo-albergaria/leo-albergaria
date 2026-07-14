@@ -23,14 +23,19 @@ jobs:
 
       - name: Inject Content
         run: |
-          # O arquivo foi identificado como readme.md no seu log
-          sed -i '//,//{
-            //r content.md
-            //!{
-              //!d
-            }
-          }' readme.md
-
+          # Verifica se as tags existem no arquivo
+          if grep -q "" readme.md; then
+            sed -i '//,//{
+              //r content.md
+              //!{
+                //!d
+              }
+            }' readme.md
+          else
+            echo "Erro: As tags de injeção não foram encontradas no arquivo readme.md"
+            exit 1
+          fi
+          
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
