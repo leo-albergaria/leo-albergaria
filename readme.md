@@ -31,18 +31,6 @@ Engenheiro de Software com uma trajetória sólida de mais de 30 anos, combinand
 
 ---
 
-### 💡 Projetos em Destaque
-*(Nota: Substitua os links pelos seus repositórios no GitHub)*
-
-*   **[Nome do Projeto A]** - `Java/Spring/Oracle`
-    *   Arquitetura de microsserviços voltada para [objetivo do projeto]. Otimização de queries complexas que resultou em uma melhoria de [X]% na performance.
-    *   [Link para o Repositório]
-*   **[Nome do Projeto B]** - `Angular/Python`
-    *   Desenvolvimento de dashboard analítico integrado para visualização de dados em tempo real.
-    *   [Link para o Repositório]
-
----
-
 ### 💼 Experiência Profissional
 
 *   **Capgemini Engineering** | Advanced Consultant/Software Developer | 2022 – Presente
@@ -77,3 +65,13 @@ Engenheiro de Software com uma trajetória sólida de mais de 30 anos, combinand
 <p align="center">
   <i>"Committed to building robust systems and driving engineering excellence."</i>
 </p>
+
+---
+
+### 🚀 Technical Highlights & Projects
+*Estes repositórios refletem estudos arquiteturais, automação de infraestrutura e aplicações de padrões de design em sistemas distribuídos.*
+
+<!-- START_SECTION:repositories -->
+<!-- Esta seção será preenchida automaticamente pelo sistema de automação -->
+<!-- END_SECTION:repositories -->
+---
